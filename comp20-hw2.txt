@@ -1,0 +1,9 @@
+1. One advantage of using Github is that it is more indusive to an development environment where there's more than 1 developer.
+One advantage of using CPanel is amazing GUI. Users are able to do complex tasks through simple clicks of the button on the GUI, such as to domain management, FTP, or even statistics of your website.
+
+2. I prefer Github mainly due to ease to collaborate with others on a project. Also, I don't need much of the features that Cpanel provides as a College Student, maybe once in Industry I will find more use of CPanel.
+
+3. Most satisfying part of the assignment was looking through the cool features CPanel has to offer
+
+https://firstsss.000webhostapp.com/intro.html
+https://zhitongzhang.github.io/comp20/intro.html

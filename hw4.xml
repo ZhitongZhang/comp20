@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<cover_bandlist>
+<song>
+    <artist_n> Ed Sheeran</artist_n>
+    <song_name> Shape of You </song_name>
+    <genre> Pop </genre>
+    <release_date>2017 </release_date>
+</song>
+<song>
+    <artist_n> Ed Sheeran</artist_n>
+    <song_name> Perfect </song_name>
+    <genre> Pop </genre>
+    <release_date> 2017 </release_date>
+</song>
+<song>
+    <artist_n> Drake</artist_n>
+    <song_name> God's Plan</song_name>
+    <genre> Hip-Hop/Rap </genre>
+    <release_date>2018 </release_date>
+</song>
+<song>
+    <artist_n>Drake</artist_n>
+    <song_name> Laugh Now Cry Later </song_name>
+    <genre> Pop </genre>
+    <release_date> 2020</release_date>
+</song>
+<song>
+    <artist_n> Ariana Grande</artist_n>
+    <song_name> Rain On Me </song_name>
+    <genre> Pop </genre>
+    <release_date> 2020</release_date>
+</song>
+<song>
+    <artist_n> Miley Cyrus</artist_n>
+    <song_name> Wrecking Ball </song_name>
+    <genre>Pop </genre>
+    <release_date> 2013</release_date>
+</song>
+<song>
+    <artist_n> Lil Yachty</artist_n>
+    <song_name> Git Dripped</song_name>
+    <genre> Rap </genre>
+    <release_date> 2018 </release_date>
+</song>
+<song>
+    <artist_n> 6ix9ine</artist_n>
+    <song_name> GOOBA </song_name>
+    <genre> hiphop/rap </genre>
+    <release_date>2020 </release_date>
+</song>
+<song>
+    <artist_n> 6ix9ine</artist_n>
+    <song_name>FEFE </song_name>
+    <genre> hiphop/rap</genre>
+    <release_date>2018 </release_date>
+</song>
+<song>
+    <artist_n> Lil Pump</artist_n>
+    <song_name> Gucci Gang </song_name>
+    <genre> hiphop/rap </genre>
+    <release_date> 2017</release_date>
+</song>
+</cover_bandlist>
