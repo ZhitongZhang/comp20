@@ -34,12 +34,15 @@ document.getElementById("drink").innerHTML = "#Drink(s): " + drink_c + " at $" +
 
 if (total >= 20)
 {
-    document.write("You quality for our 10% discount! You're saving: $" + total * .1 );
+    var discount_num = total * .1;
+    document.write("You quality for our 10% discount! You're saving: $" + discounted_num.toFixed(2));
     total = total * .9;
 }
 
-document.write("</br> Your subtotal is: $" + total);
-document.write("</br> Meal Tax: $" + total * .0625);
-document.write("</br> Total: $" + total * 1.0625);
+document.write("</br> Your subtotal is: $" + total.toFixed(2));
+var temp = total * .0625;
+document.write("</br> Meal Tax: $" + temp.toFixed(2));
+temp = total * 1.0625;
+document.write("</br> Total: $" + temp.toFixed(2));
 
 
