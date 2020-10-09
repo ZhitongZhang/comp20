@@ -31,18 +31,19 @@ total = hotdog_c * HOTDOG_PRICE + frenchfrie_c * FRENCH_FRIE_PRICE + drink_c * D
 document.getElementById("hotdog").innerHTML = "#Hotdog(s): " + hotdog_c + " at $" + HOTDOG_PRICE + " is $" + HOTDOG_PRICE * hotdog_c;
 document.getElementById("frenchfrie").innerHTML = "#FrenchFrie(s): " + frenchfrie_c + " at $" + FRENCH_FRIE_PRICE + " is $" + FRENCH_FRIE_PRICE * frenchfrie_c;
 document.getElementById("drink").innerHTML = "#Drink(s): " + drink_c + " at $" + DRINK_PRICE + " is $" + DRINK_PRICE * drink_c;
-
+var formatter = new Intl.NumberFormat('en-US', {
+    style: 'currency',
+    currency: 'USD',
+  });
 if (total >= 20)
 {
-    var discount_num = total * .1;
-    document.write("You quality for our 10% discount! You're saving: $" + discounted_num.toFixed(2));
+    document.write("You quality for our 10% discount! You're saving: " + formatter.format(total * .1) );
     total = total * .9;
 }
 
-document.write("</br> Your subtotal is: $" + total.toFixed(2));
-var temp = total * .0625;
-document.write("</br> Meal Tax: $" + temp.toFixed(2));
-temp = total * 1.0625;
-document.write("</br> Total: $" + temp.toFixed(2));
+document.write("</br> Your subtotal is: " + formatter.format(total));
+document.write("</br> Meal Tax: " + formatter.format(total * .0625));
+document.write("</br> Total: " + formatter.format(total * 1.0625));
+
 
 
