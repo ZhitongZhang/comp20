@@ -44,5 +44,9 @@ if (total >= 20)
 document.write("</br> Your subtotal is: " + formatter.format(total));
 document.write("</br> Meal Tax: " + formatter.format(total * .0625));
 document.write("</br> Total: " + formatter.format(total * 1.0625));
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0e6c5470356bb807faa7ec3f1133477a014a9ea5
 
 
