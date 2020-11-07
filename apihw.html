@@ -26,8 +26,8 @@
 					// Step 5: wait for done + success
 					console.log("5 - response received");
 					result = request.responseText;
-					alert(result);
-					var x = JSON.parse(result);
+
+                    var x = JSON.parse(result);
 					
 					document.getElementById("data").innerHTML ="new coronavirus cases today:" + x["Global"]["NewConfirmed"] + "on " + x["Date"]; 
 					
