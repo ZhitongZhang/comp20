@@ -37,7 +37,7 @@
                         <option value="All">   All</option>
                         <option value="Pop">    Pop</option>
                         <option value="Rap"> Rap</option>
-                        <option value="Country">   Country</option>
+                        <option value="Country">   Country </option>
 
                     </select>
                     <br>
@@ -71,19 +71,18 @@
 
             //filter display
             currSong = "song" + i;
-            // artwork  = playlist[i].artwork;
             document.getElementById("filter").innerHTML += "<div id='"+ currSong + "' class='album-art'> <div class='overlay'>" + title + album + artists + "</div></div>";
         }
 
         //genre filtering
         function genreDisplay() {
-            genre_selected = document.getElementById("selector").value;
+            genre_selected =  document.getElementById("selector").value;
 
             document.getElementById("filter").innerHTML = "";
             if (genre_selected == 'All') {
                 for (i = 0; i < playlist.length; i++) {
                     currSong = "song" + i;
-                    document.getElementById("filter").innerHTML += "<div id='"+ currSong + "' class='album-art'> <div class='overlay'>" + title + album + artists + "</div></div>";
+                    document.getElementById("filter").innerHTML +=  "<div id='"+ currSong + "' class='album-art'> <div class='overlay'>" + title + album + artists + "</div></div>";
                 }
             }
             else {
@@ -92,9 +91,9 @@
                     genres = playlist[i].genre;
                     for (j = 0; j < genres.length; j++) {
                         if (genres[j] == genre_selected) {
-                            title   = playlist[i].title + "<br>";
-                            album   = playlist[i].album + "<br>";
-                            artists = playlist[i].artist + "<br>";
+                            title   = playlist[i].title +  "<br>";
+                            album   = playlist[i].album +  "<br>";
+                            artists = playlist[i].artist +   "<br>";
                             document.getElementById("filter").innerHTML += "<div id='"+ current_iter + "' class='album-art'> <div class='overlay'>" + title + album + artists + "</div></div>";
                             current_iter++;
                             break;
